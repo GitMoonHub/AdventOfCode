@@ -296,6 +296,7 @@ void ReadInput(std::string path) {
 
     }
     std::cout << uniqueCounter << std::endl;
+    file.close();
 #endif
 
 #ifdef PART_TWO
@@ -362,5 +363,6 @@ void ReadInput(std::string path) {
         }
             lineCounter++;
     }
+    file.close();
 #endif
 }
