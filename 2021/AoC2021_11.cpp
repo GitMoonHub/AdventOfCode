@@ -21,7 +21,7 @@ struct Dumbo {
     int energy = -1;
     bool flashed = false;
 };
-uint64_t concurrentFlashes = 0;
+
 uint64_t totalFlashes = 0;
 std::array<std::array<Dumbo, 10>, 10> dumbos;
 std::list<Dumbo*> flashing;
